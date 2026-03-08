@@ -1,0 +1,6 @@
+#pragma once
+typedef enum {
+    STATE_BOOT, STATE_FIRST_RUN, STATE_PIN_ENTRY,
+    STATE_UNLOCKED, STATE_SIGNING, STATE_SETTINGS,
+    STATE_LOCKED, STATE_WIPED,
+} app_state_t;
